@@ -1,0 +1,28 @@
+.page-header {
+  margin-bottom: 0.9rem;
+  display: flex;
+  align-items: center;
+  min-height: 2.3rem;
+}
+
+.page-header-col {
+  display: flex;
+  align-items: center;
+}
+
+.page-header .title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #0c0e0b;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.page-header .side-title-link .icon {
+  margin-left: 0.875rem;
+  margin-right: 0.875rem;
+}
+
+.page-header .return-link .icon {
+  margin-right: 0.875rem;
+}

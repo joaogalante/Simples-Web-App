@@ -1,0 +1,111 @@
+@import '~antd/dist/antd.css';
+
+*, * * {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FAFAFA;
+}
+
+html, body, #root, .page-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.page-wrapper {
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+
+/* HELPERS */
+
+.hidden { visibility: hidden !important; }
+.no-margin { margin: 0 !important; }
+.no-padding { padding: 0 !important; }
+.no-border { border: 0 !important; }
+.no-border-top { border-top: 0 !important; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.flex-1 { flex: 1 }
+.flex-2 { flex: 2 }
+.flex-3 { flex: 3 }
+.flex-4 { flex: 4 }
+.flex-5 { flex: 5 }
+.flex-6 { flex: 6 }
+.flex-7 { flex: 7 }
+.flex-8 { flex: 8 }
+.flex-9 { flex: 9 }
+.flex-10 { flex: 10 }
+.flex-11 { flex: 11 }
+.flex-12 { flex: 12 }
+.flex-13 { flex: 13 }
+.flex-14 { flex: 14 }
+.flex-15 { flex: 15 }
+.flex-16 { flex: 16 }
+.flex-17 { flex: 17 }
+.flex-18 { flex: 18 }
+.flex-19 { flex: 19 }
+.flex-20 { flex: 20 }
+.flex-21 { flex: 21 }
+.flex-22 { flex: 22 }
+.flex-23 { flex: 23 }
+.flex-24 { flex: 24 }
+.flex-25 { flex: 25 }
+.flex-26 { flex: 26 }
+.flex-27 { flex: 27 }
+.flex-28 { flex: 28 }
+.flex-29 { flex: 29 }
+.flex-30 { flex: 30 }
+.flex-31 { flex: 31 }
+.flex-32 { flex: 32 }
+.flex-33 { flex: 33 }
+.flex-34 { flex: 34 }
+.flex-35 { flex: 35 }
+.flex-36 { flex: 36 }
+.flex-37 { flex: 37 }
+.flex-38 { flex: 38 }
+.flex { display: flex }
+.flex-direction-column { flex-direction: column }
+.flex-direction-row { flex-direction: row }
+.stretch { align-items: stretch !important }
+.scroll { overflow-y: auto }
+.full-width { width: 100%; }
+.basic-padding { padding: 1.375rem }
+.basic-padding-right { padding-right: 1.375rem }
+.small-width { max-width: 26rem }
+
+.center-child { 
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  flex: 1;
+}
+
+/* LAYOUT */
+
+.layout {
+  flex: 1;
+  background: transparent;
+}
+
+.layout.dark {
+  background: #333336;
+}
+
+.layout.center-child {
+  align-items: center;
+  justify-content: center;
+}
+

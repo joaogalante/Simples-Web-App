@@ -1,0 +1,9 @@
+.input-date {
+  display: block;
+  padding: 0;
+}
+
+.input-date input {
+  height: 2.6rem;
+  padding: 0.875rem 1.5rem;
+}

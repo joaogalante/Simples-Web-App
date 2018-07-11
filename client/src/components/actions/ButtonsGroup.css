@@ -1,0 +1,16 @@
+.buttons-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons-group .button:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.buttons-group .button:first-child {
+  border-radius: 0 0 0 3px;
+}
+
+.buttons-group .button:last-child {
+  border-radius: 0 0 3px 0;
+}

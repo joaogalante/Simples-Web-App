@@ -1,0 +1,25 @@
+.big-button {
+  background: transparent;
+  border: none;
+  padding: .5rem 2rem;
+  height: auto;
+  width: fit-content;
+  margin: 1.5rem auto;
+}
+
+.big-button > span {
+  font-size: 1rem;
+  color: #2290FF;
+  font-weight: 300;
+}
+
+.big-button .icon {
+  margin-right: 1rem;
+}
+
+.big-button:hover,
+.big-button:active,
+.big-button:focus {
+  opacity: .85;
+}
+

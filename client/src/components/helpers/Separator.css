@@ -1,0 +1,8 @@
+.separator {
+  padding: 2rem 0;
+}
+
+
+.separator.small {
+	padding: 1rem 0
+}

@@ -1,0 +1,8 @@
+.form-item {
+  width: 100%;
+  margin-bottom: 2.375rem;
+}
+
+.form-item.small-margin {
+  margin-bottom: 1rem
+}

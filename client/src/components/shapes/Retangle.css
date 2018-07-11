@@ -1,0 +1,11 @@
+.retangle {
+  background: #E4E4E4;
+  width: 0.45rem;
+  height: 0.85rem;
+}
+
+.retangle.green { background: #3BB273 }
+.retangle.yellow { background: #FB9642 }
+.retangle.red { background: #EE6A83 }
+.retangle.grey { background: #828793 }
+.retangle.light-grey { background: #A5A9B1 }

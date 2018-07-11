@@ -1,0 +1,8 @@
+.flex-grid-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-grid-item.empty {
+  flex: 1;
+}

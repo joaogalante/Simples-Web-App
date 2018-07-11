@@ -1,0 +1,12 @@
+.title-subtitle {}
+
+.title-subtitle .title {
+  font-size: 1rem;
+  color: #0A0B09;
+}
+
+.title-subtitle .subtitle {
+  margin-top: -0.125rem;
+  font-size: 0.625rem;
+  color: #828793;
+}

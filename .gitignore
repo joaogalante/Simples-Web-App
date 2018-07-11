@@ -1,0 +1,7 @@
+.DS_Store
+.env
+.swp
+*.swp
+/fin
+/vendor/*
+/tmp/*

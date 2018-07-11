@@ -1,0 +1,12 @@
+.input-number {
+  padding: 0;
+	display: block;
+	width: 100%;
+}
+
+.input-number input {
+  height: 2.6rem;
+  padding: 0.875rem 1.5rem;
+  text-align: center;
+	width: 100%;
+}

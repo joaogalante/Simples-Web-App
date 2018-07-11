@@ -1,0 +1,88 @@
+.table {
+  /* display: flex; */
+  flex: 1;
+  width: 100%;
+}
+
+.table-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.table-row.grey {
+  background: #fafafa;
+}
+
+.table-row.level-1 {
+  padding-left: 2.3rem;
+}
+.table-row.level-2 {
+  padding-left: 4.6rem;
+}
+.table-row.level-3 {
+  padding-left: 6.9rem;
+}
+.table-row.level-4 {
+  padding-left: 9.2rem;
+}
+.table-row.level-5 {
+  padding-left: 11.5rem;
+}
+.table-row.level-6 {
+  padding-left: 13.8rem;
+}
+.table-row.level-7 {
+  padding-left: 16.1rem;
+}
+.table-row.level-8 {
+  padding-left: 18.4rem;
+}
+.table-row.level-9 {
+  padding-left: 20.7rem;
+}
+.table-row.level-10 {
+  padding-left: 23rem;
+}
+.table-row.level-up {
+  padding-left: 25.3rem;
+}
+
+.table-row.level-1,
+.table-row.level-3,
+.table-row.level-5,
+.table-row.level-7,
+.table-row.level-9,
+.table-row.level-up {
+  background: #fafafa;
+}
+
+.table-row.level-2,
+.table-row.level-4,
+.table-row.level-6,
+.table-row.level-8,
+.table-row.level-10 {
+  background: #f6f6f6;
+}
+
+.table-cell {
+  padding: 1.375rem;
+  display: flex;
+  align-items: center;
+}
+
+.table-cell > span,
+.table-cell {
+  font-size: 0.75rem;
+  color: #828793;
+  letter-spacing: 0.3px;
+}
+
+.table-cell.main,
+.table-cell.main a {
+  font-size: 1rem;
+  color: #0a0b09;
+  letter-spacing: 0;
+}

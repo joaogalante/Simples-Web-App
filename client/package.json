@@ -1,0 +1,39 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://simples.surge.sh",
+  "dependencies": {
+    "antd": "^3.3.3",
+    "flow-bin": "^0.65.0",
+    "history": "^4.7.2",
+    "moment": "^2.20.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-lazylog": "^2.1.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.0.14",
+    "react-sortable-hoc": "^0.6.8",
+    "redux": "^3.7.2",
+    "redux-react-session": "^2.1.0",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "dev-deploy": "REACT_APP_API_URL=https://dev-simpleswebapi.herokuapp.com/ yarn build && mv build/index.html build/200.html && surge build/ dev-simples.surge.sh",
+    "prod-deploy": "REACT_APP_API_URL=https://prod-simpleswebapi.herokuapp.com/ yarn build && mv build/index.html build/200.html && surge build/ simples.surge.sh",
+    "both-deploy": "yarn dev-deploy && yarn prod-deploy",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "ramda": "^0.24.1",
+    "recompose": "^0.26.0",
+    "redux-devtools": "^3.4.0",
+    "seamless-immutable": "^7.1.2"
+  }
+}

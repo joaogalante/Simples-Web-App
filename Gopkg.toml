@@ -1,0 +1,91 @@
+# Gopkg.toml example
+#
+# Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
+# for detailed Gopkg.toml documentation.
+#
+# required = ["github.com/user/thing/cmd/thing"]
+# ignored = ["github.com/user/project/pkgX", "bitbucket.org/user/project/pkgA/pkgY"]
+#
+# [[constraint]]
+#   name = "github.com/user/project"
+#   version = "1.0.0"
+#
+# [[constraint]]
+#   name = "github.com/user/project2"
+#   branch = "dev"
+#   source = "github.com/myfork/project2"
+#
+# [[override]]
+#   name = "github.com/x/y"
+#   version = "2.4.0"
+#
+# [prune]
+#   non-go = false
+#   go-tests = true
+#   unused-packages = true
+
+[metadata.heroku]
+  root-package = "fin"
+  go-version = "1.10"
+ 
+# required = ["fin"]
+
+[[constraint]]
+  name = "github.com/360EntSecGroup-Skylar/excelize"
+  version = "1.2.0"
+
+[[constraint]]
+  name = "github.com/Nhanderu/brdoc"
+  version = "1.1.2"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/cinn-labs/auth"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/cinn-labs/lg"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/cinn-labs/qh"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/cinn-labs/resource"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/cinn-labs/server"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/cinn-labs/validate"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/cinn-labs/wh"
+
+[[constraint]]
+  name = "github.com/gorilla/mux"
+  version = "1.6.1"
+
+[[constraint]]
+  name = "github.com/joho/godotenv"
+  version = "1.2.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/lib/pq"
+
+[[constraint]]
+  name = "github.com/satori/go.uuid"
+  version = "1.2.0"
+
+[[constraint]]
+  name = "github.com/urfave/negroni"
+  version = "0.3.0"
+
+[prune]
+  go-tests = true
+  unused-packages = true

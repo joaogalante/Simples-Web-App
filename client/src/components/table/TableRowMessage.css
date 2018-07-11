@@ -1,0 +1,15 @@
+.table-row-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-row-message .icon {
+	font-size: 1.2rem;
+}
+
+
+.table-row-message .title-subtitle .title {
+	font-size: 0.85rem;
+}
+

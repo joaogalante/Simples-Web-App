@@ -1,0 +1,12 @@
+.icon {
+	font-size: 1.6rem;
+	color: #828793;
+}
+
+.icon.blue:before { color: #2290FF }
+.icon.green:before { color: #3BB273 }
+.icon.white:before { color: #FFFFFF }
+.icon.yellow:before { color: #FB9642 }
+.icon.red:before { color: #EE6A83 }
+.icon.grey:before { color: #828793 }
+.icon.light-grey:before { color: #A5A9B1 }

@@ -1,0 +1,28 @@
+.table-header {
+  display: flex;
+  min-height: 4.75rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.table-header.border-top {
+  border-top: 1px solid #e7e7e7;
+}
+
+.table-header,
+.table-header span {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #717171;
+}
+
+.table-header > .icon {
+  font-size: 1.4rem;
+}
+
+.table-header.grey {
+  background: #f6f6f6;
+}

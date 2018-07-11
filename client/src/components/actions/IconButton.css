@@ -1,0 +1,25 @@
+.icon-button {
+  /* padding: .5rem; */
+  background: #2290FF;
+  margin-left: 0.3125rem;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button > .icon {
+  font-size: 1.2rem;
+}
+
+.icon-button:hover {
+  opacity: .8;
+}
+
+.icon-button.green { background: #3BB273 }
+.icon-button.yellow { background: #FB9642 }
+.icon-button.red { background: #EE6A83 }
+.icon-button.grey { background: #828793 }
+.icon-button.light-grey { background: #A5A9B1 }
+.icon-button.transparent { background: none }

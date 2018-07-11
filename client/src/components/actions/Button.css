@@ -1,0 +1,47 @@
+.button {
+  background: #2290FF;
+  border-radius: 3px;
+  border: none;
+  padding: 0.875rem 3rem;
+  height: auto;
+	vertical-align: middle;
+}
+
+.button > * {
+	vertical-align: middle;
+}
+
+.button > span:not(.icon) {
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.button > .icon {
+  margin-right: 1.25rem;
+	font-size: 1.5rem;
+}
+
+.button.small {
+  padding: 0.375rem 2rem;
+}
+
+.button.small > span:not(.icon) {
+  font-size: 0.75;
+  letter-spacing: 1px;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  background: currentColor;
+  opacity: .85;
+  border: none;
+}
+
+.button.green { background: #3BB273 }
+.button.yellow { background: #FB9642 }
+.button.red { background: #EE6A83 }
+.button.grey { background: #828793 }
+.button.light-grey { background: #A5A9B1 }

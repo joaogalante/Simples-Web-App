@@ -1,0 +1,36 @@
+.label-value,
+.label-value-link {
+  margin-bottom: 2rem;
+}
+
+.label-value .label,
+.label-value-link .label {
+  font-size: 1rem;
+  color: #151614;
+  letter-spacing: 1px;
+}
+
+.label-value .value,
+.label-value-link .value {
+  font-size: 0.875rem;
+  color: #828793;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  /* margin-top: 0.5rem; */
+}
+
+.label-value-link .value .icon {
+  margin-left: 0.3rem;
+  font-size: 1.3rem;
+}
+
+.label-value-link.red .value,
+.label-value.red .value {
+  color: #ee6a83;
+}
+
+.label-value-link.yellow .value,
+.label-value.yellow .value {
+  color: #fb9642;
+}

@@ -1,0 +1,10 @@
+.alert {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.alert .ant-alert-message {
+  font-size: 0.875rem;
+  color: #828793;
+  font-weight: 300;
+}

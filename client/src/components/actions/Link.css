@@ -1,0 +1,16 @@
+.link {
+  font-size: 1rem;
+  color: #2290FF;
+  letter-spacing: 1.43px;
+}
+
+.link.small { 
+  font-size: 0.75rem; 
+  font-style: italic;
+  letter-spacing: .6px;
+}
+
+.link.xsmall { 
+  font-size: 0.625rem; 
+  font-style: italic;
+}
